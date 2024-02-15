@@ -1,0 +1,92 @@
+body {
+	font-family: 'Karla';
+	background: #edeae5;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    font-style: italic;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+div {
+	transition: linear 0.2s;
+}
+
+#container {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: calc(50% - 240px);
+    left: calc(50% - 240px);
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    background: white;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.square {
+    width: 60px;
+    height: 60px;
+    background: #e67e22;
+    display: inline-block;
+    margin-right: 30px;
+}
+.row {
+    margin-bottom: 30px;
+}
+.green {
+    background: #78c272;
+}
+.fancy {
+    border: 3px inset rgba(74, 74, 74, 0.25);
+    width: 54px;
+    height: 54px;
+}
+
+
+
+
+/*If you do ".circle, " first, it selects all circles. Why this order*/
+#third-row .circle {
+    background: #de6868
+}
+
+/*If you do ".fancy .circle" it doesn't change. By removing the space it does though. Not sure why.*/
+/*This selects all stuff with these classes.*/
+.fancy.circle{
+    border-style: dotted
+}
+
+/*This is a pseudo selector. First child is the first element.*/
+.circle:first-child{
+    opacity: 0
+}
+
+/* Selects stuff that is either green, fancy, or both.*/
+.green, .fancy {
+    background: #6392c0
+}
+
+/* This is another pseudo selector. It selects all circles and make them go faint when you hover over them. */
+.circle:hover {
+    opacity:0.5
+}
+
+/* This is another pseudo selector. It selects all circles in the second row and make them bigger when you hover over them. */
+#second-row .circle:hover{
+    transform: scale(1.25)
+}
