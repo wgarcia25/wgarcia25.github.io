@@ -1,0 +1,536 @@
+/* Body CSS */
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/* Link CSS */
+
+a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.836);
+}
+
+
+
+/* Page CSS */
+
+
+#page {
+	width: 100%;
+	height: 100%;
+	background: #292d31;
+	
+	
+}
+
+
+
+
+
+/* Navigation Bar CSS */
+
+#navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	height: 350px;
+
+
+
+	background: #131d3a8a;
+	margin-bottom: 20px;
+	border-bottom: 12px solid rgba(107, 107, 109, 0.993);
+	
+	
+
+}
+
+
+
+
+
+
+.search-box {
+	display: flex;
+	flex-direction: column;
+	
+	width: 195px;
+	height: 50px;
+
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+
+	border-radius: 10px;
+	border-style: solid;
+	border-color: rgba(167, 167, 170, 0.993);
+
+	background: rgba(104, 108, 119, 0.89);
+	opacity: 0.;
+
+}
+
+.search-text {
+	display: flex;
+	flex-direction: row;
+
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 12px;
+
+	font-size: 20px;
+	font-family: 'Jost', serif;
+	color: rgba(255, 255, 255, 0.836)
+	
+}
+
+.search-text:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+
+.navbar-mid-group{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	font-size: 26px;
+	font-family: 'Jost', serif;
+}
+
+.nav-mid-element {
+	margin-left: 16px;
+	margin-right: 16px;
+
+	padding-top: 2px;
+	padding-bottom: 6px;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+
+	color: rgba(255, 255, 255, 0.836)
+	
+}
+
+.nav-mid-element:hover {
+	border-radius: 80px;
+
+	
+	background: rgba(119, 146, 187, 0.671);
+
+	cursor: pointer;
+	text-decoration: underline;
+	transform: scale(1.15)
+	
+	
+	
+}
+
+.nav-mid-element:hover {
+	color: rgb(255, 255, 255)
+}
+  
+
+
+.navbar-right-group{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 500px;
+
+
+	font-size: 20px;
+	font-family: 'Jost', serif;
+}
+
+
+
+.nav-right-text {
+	display: flex;
+	flex-direction: row;
+
+
+	margin-left: 5px;
+	margin-right: 10px;
+	
+	color: rgba(255, 255, 255, 0.836)
+}
+
+.nav-right-text:hover {
+	cursor: pointer;
+	text-decoration: underline;
+
+	transform: scale(1.05);
+	
+}
+
+.nav-vertical-bar {
+	color: rgba(255, 255, 255, 0.836)
+}
+
+
+
+
+.left-icon {
+	width: 20px;
+	height: 20px;
+	
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 6px;
+}
+.right-icons {
+	width: 20px;
+	height: 20px;
+
+	margin-left: 3px;
+	margin-right: 6px;
+}
+
+
+
+
+
+
+
+/* Logo CSS */
+
+
+
+#logo-full {
+	width: 500px;
+	background: #2e73c2be;
+	border-radius: 50px;
+
+	
+	border-style: solid;
+	border-width: 8px;
+	border-color: rgba(210, 210, 219, 0.993);
+
+	margin: auto;
+
+	
+	font-family: 'Bungee Shade', serif;
+	font-size: 30px;
+}
+
+
+
+
+.sodoi {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-top: -15px;
+	margin-bottom: -100px;
+
+	color: rgba(255, 255, 255, 0.836);
+	
+	
+}
+
+.coffee{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+	margin-bottom: -5px;
+
+	color: rgba(255, 255, 255, 0.836);
+}
+
+
+
+
+
+
+/* Picture CSS */
+
+#picture {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	margin-bottom: 20px;
+
+}
+
+.coffee-image-scale {
+    width: 65%;
+	height: 55%;
+	
+	border-width: 8px;;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: rgba(210, 210, 219, 0.993);
+}
+
+
+
+
+
+
+/* Description CSS */
+
+
+#description {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+
+
+}
+
+.description-one {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	margin-bottom: 2px;
+	
+
+	
+
+	font-size: 50px;
+	font-family: 'Permanent Marker', serif;
+	color: rgba(255, 255, 255, 0.836)
+}
+
+.description-two {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	line-height: 50px;
+	
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: 55px;
+	margin-bottom: 100px;
+
+	
+
+	font-size: 24px;
+	font-family: 'Chewy', serif;
+	color: rgba(255, 255, 255, 0.836)
+
+	
+}
+
+
+
+
+
+
+/* Bottom CSS*/
+
+#bottom-full {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	border-top: 6px solid rgba(107, 107, 109, 0.993);
+	
+}
+
+#bottom-one{
+	height: 60px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-top: 25px;
+
+	
+}
+
+#bottom-two {
+	margin-top: 15px;
+}
+
+
+
+.bottom-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	font-family: 'Jost', serif;
+	
+
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+
+.bottom-top-element {
+	margin-left: 5px;
+	margin-right: 5px;
+
+	color: rgba(255, 255, 255, 0.836)
+}
+
+.bottom-top-element:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	
+
+	transform: scale(1.15)
+
+}
+
+.bottom-low-element {
+	margin-left: 10px;
+	margin-right: 10px;
+
+	margin-top: -2px;
+
+	color: rgba(255, 255, 255, 0.836)
+}
+
+.bottom-icon {
+	width: 50px;
+	height: 50px;
+
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+
+
+
+
+
+
+/* Store HTML CSS */
+
+
+
+
+
+.store-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	font-family: 'Handlee', serif;
+
+	font-size: 65px;
+	text-decoration: underline;
+
+	margin-bottom: 75px;
+	
+	color: rgba(255, 255, 255, 0.836)
+}
+
+
+#options {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row-two{
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 10px;
+    margin-bottom: 10px;
+	margin-left: 12px;
+}
+
+
+.item-group{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-top: 25px;
+	margin-bottom: 75px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.item-pic {
+	width: 200px;
+	height: 200px;
+
+	margin-left: 3px;
+	margin-right: 3px;
+
+
+	border-width: 5px;;
+	border-style: dotted;
+	border-radius: 150px;
+	border-color: rgba(255, 255, 255, 0.836)
+	
+}
+
+.item-name {
+	font-family: 'Handlee', serif;
+	font-size: 25px;
+
+	margin-top: 10px;
+	margin-bottom: -8px;
+	color: rgba(255, 255, 255, 0.836)
+
+
+}
+
+.price {
+	font-size: 20px;
+	margin-bottom: 0px;
+	color: rgba(255, 255, 255, 0.836)
+
+}
+
+.add {
+	width: 65px;
+	height: 35px;
+	
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	
+	
+	background: rgba(194, 103, 103, 0.89);
+	opacity: 0.;
+
+	font-family: 'Jost', serif;
+	color: rgba(255, 255, 255, 0.836)
+	
+}
+
+.add:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	transform: scale(1.15)
+}
+
