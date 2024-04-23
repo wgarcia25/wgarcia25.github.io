@@ -1,0 +1,181 @@
+#contact {
+    height: 950px;
+    padding-top: 60px;
+}
+
+#contact-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+    font-size: 80px;
+    font-family: 'Barlow Semi Condensed', serif;
+
+    color: white;
+}
+
+#contact-intro {
+    margin-top: 40px;
+    font-size: 35px;
+
+    font-family: 'Nunito', serif;
+}
+
+#contact-bar {
+    width: 50px;
+    height: 10px;
+
+    margin-top: 10px;
+
+    border-radius: 50px;
+
+    background: white;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin-top: 120px;
+}
+
+
+.contact-box {
+    height: 400px;
+    width: 250px;
+
+    padding-left: 20px;
+
+    margin-left: 35px;
+    margin-right: 35px;
+
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.904);
+
+    font-size: 20px;
+}
+
+.sub-box {
+    width: 230px;
+    height: 380px;
+
+    
+
+    color: rgba(37, 40, 44, 0.877);
+}
+.contact-box-title {
+    font-size: 36px;
+    font-family: 'Barlow Semi Condensed', serif;
+
+    color: rgba(37, 40, 44, 0.986);
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    margin-bottom: 10px;
+
+    font-family: 'Nunito', serif;
+    
+}
+
+.contact-button-size {
+    font-size: 24px;
+}
+
+.contact-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 220px;
+    height: 50px;
+
+    margin-top: 80px;
+
+    border-color: rgba(72, 90, 114, 0.87);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 8px;
+    font-family: 'Nunito', serif;
+}
+
+.contact-button-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 220px;
+    height: 50px;
+
+    margin-top: 134px;
+
+
+    
+    border-color: rgba(72, 90, 114, 0.87);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 8px;
+
+    font-family: 'Nunito', serif;
+}
+
+.contact-button-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 220px;
+    height: 50px;
+
+    margin-top: 106px;
+
+
+    border-color: rgba(72, 90, 114, 0.87);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 8px;
+
+    font-family: 'Nunito', serif;
+}
+
+.contact-button:hover {
+    background: rgba(72, 90, 114, 0.87);
+
+    color: white;
+    
+    cursor: pointer;
+    
+    transform: scale(1.05);
+
+}
+
+.contact-button-two:hover {
+    background: rgba(72, 90, 114, 0.87);
+
+    color: white;
+    
+    cursor: pointer;
+    
+    transform: scale(1.05);
+
+}
+
+.contact-button-three:hover {
+    background: rgba(72, 90, 114, 0.87);
+
+    color: white;
+    
+    cursor: pointer;
+    
+    transform: scale(1.05);
+
+}

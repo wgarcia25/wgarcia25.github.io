@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    height: 2000px;
+
+    background: rgba(30, 42, 58, 0.781)
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+}
+
+a:visited {
+    color: rgba(255, 255, 255, 0.904);
+    text-decoration: none;
+}
+
+#navbar-container {
+    position: fixed;
+    width: 100%;
+}
+
+#navbar {
+    z-index: 1000;
+
+    position: fixed;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    height: 95px;
+
+    
+
+    padding-top: 2px;
+
+    background: linear-gradient( to bottom right,rgba(10, 29, 63, 1), rgba(83, 101, 139, 1) );
+
+    opacity: 1;
+
+    font-size: 24px;
+    font-family: 'Nunito', serif;
+
+    color: rgba(255, 255, 255, 0.904);
+
+    border-bottom: 6px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(189, 195, 212);
+
+}
+
+
+#left-side-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 350px;
+    height: 115px;
+
+    margin-left: -10px;
+
+}
+
+
+#pic-1 {
+    width: 75px;
+    height: 75px;
+    
+    margin-left: 10px;
+
+    border-radius: 50px;
+    overflow: clip;
+}
+
+#profile-name {
+    margin-left: -65px;
+
+    font-size: 30px;
+}
+
+#mid-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: -340px;
+
+
+    width: 450px;
+}
+
+.mid-nav-element {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+    
+}
+
+.mid-nav-element:hover {
+    border-radius: 80px;
+
+    background: rgba(119, 146, 187, 0.671);
+    
+    cursor: pointer;
+    
+    transform: scale(1.15);
+}
+
+#right-side-nav {
+    display: flex;
+    flex-direction: row;
+    
+
+    margin-right: 25px;
+
+}
+
+#pic-2 {
+    width: 35px;
+    height: 35px;
+    
+    border-radius: 50px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.right-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 70px;
+
+    margin-left: 4px;
+    margin-right: 4px;
+
+    padding-top: 4px;
+    
+}
+
+.right-image-container:hover {
+    border-radius: 100px;
+
+    background: rgba(119, 146, 187, 0.671);
+    
+    cursor: pointer;
+    
+    transform: scale(1.15);
+}
